@@ -68,7 +68,7 @@ RUN set -x; \
     npm install -g rtlcss
 
 # Install Odoo
-ENV ODOO_VERSION 15.0
+ENV ODOO_VERSION 16.0
 ARG ODOO_RELEASE=20220727
 ARG ODOO_SHA=bf4eae33f81c54c73b83d9c05a318b6e00b43e80
 RUN set -x; \
